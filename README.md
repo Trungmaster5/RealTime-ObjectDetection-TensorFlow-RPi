@@ -18,7 +18,7 @@ sudo apt-get install protobuf-compiler
 Compile the Object Detection API using Protobuf. 
 ```
 sudo protoc object_detection/protos/*.proto --python_out=.
-export PYTHONPATH=$PythONPATH:`pwd`:`pwd`/slim
+export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim
 ```
 ### Install tensorflow (1.7.0)
 ```
